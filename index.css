@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+#top{
+    background-color: #04043c;
+    color: white;
+}
+#top1{
+    padding-left: 10em;
+}
+#top1>h1{
+    padding-top: 0.5em;
+    margin: 0;
+}
+#nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    padding-left: 40%;
+    height: 3em;
+    font-family: sans-serif;
+}
+#nav>a{
+    height: 100%;
+    color: inherit;
+    margin: 0;
+    text-decoration: none;
+}
+.nav{
+    height: 100%;
+    line-height: 3em;
+    background-color: inherit;
+    color: inherit;
+}
+#content{
+    width: 70%;
+    margin: 0 auto;
+}
+#current{
+    background-color: white !important;
+    color: black !important;
+}

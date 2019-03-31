@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    min-width: 0;
+    min-height: 0;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+img{
+    width: 100%; /*This makes it only take the width of the parent column, thus not expanding it*/
+    border: 1px solid black;
+}
+input{
+    font-size: 1em;
+    margin-bottom: 0.4em;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid gray;
+    color: black;
+}
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+#info>*{
+    margin: 0;
+    margin-top: 0;
+}
+#right{
+    margin-left: 1em;
+    position: relative;
+}
+#answer{
+    position: absolute;
+    bottom: 0;
+}
+#lr{
+    position: absolute;
+    right: 0; /*float username right*/
+}
